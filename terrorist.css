@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    padding:0px;
+    overflow: hidden;
+    margin:0px;
+    background:url("https://steamcdn-a.akamaihd.net/apps/csgo/images/operationvanguard/bg_01.jpg?v=2");
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Anton', sans-serif;
+
+    height:100vh;
+}
+#terror_form{
+    background-color:rgba(0,0,0,0.78);
+    width:40vw;
+    height:70vh;
+    border-radius:50px;
+    padding:5vh;
+    margin-top:20vh;
+    padding-top:13vh;
+    margin-left:30vw;
+    color:white;
+}
+#play{
+    background-color: #FFFF58;
+    color:black;
+    padding:1.4vh;
+    letter-spacing:1px;
+    font-size:130%;
+    outline:none;
+    width:8vw;
+
+    text-decoration:none;
+}
+#play:hover{
+    background-color: #D39300;
+    transition:0.5s;
+}
